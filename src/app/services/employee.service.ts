@@ -9,6 +9,6 @@ export class EmployeeService {
   }
 
   getAll(): Observable<EmployeeModel[]>  {
-    return this._client.get<EmployeeModel[]>('assets/data/employees.json');
+    return this._client.get<EmployeeModel[]>('assets/data/people.json');
   }
 }
