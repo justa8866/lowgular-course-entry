@@ -1,6 +1,6 @@
-export interface EmployeeModel {
-  personalNumber: string;
-  name: string;
-  mail: string;
-  img:string;
-}
+// export interface EmployeeModel {
+//   personalNumber: string;
+//   name: string;
+//   mail: string;
+//   img:string;
+// }
