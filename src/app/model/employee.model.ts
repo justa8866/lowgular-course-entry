@@ -2,5 +2,5 @@
 //   personalNumber: string;
 //   name: string;
 //   mail: string;
-//   img:string;
+//   img: string;
 // }
