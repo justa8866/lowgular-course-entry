@@ -13,4 +13,8 @@ export class EmployeeFormComponent {
       age: new FormControl(null, [Validators.min(0), Validators.required]),
       salary: new FormControl(null, [Validators.min(0), Validators.required]),
   })
+
+  onButtonClicked(){
+    alert('It works');
+  }
 }
