@@ -7,6 +7,7 @@ import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.co
 import {EmployeeFacesComponentModule} from "./ui/employee-faces/employee-faces.component-module";
 import { EmployeeServiceModule } from './services/employee.service-module';
 import {ProjectListComponentModule} from "./ui/project-list/project-list.component-module";
+import { ProjectServiceModule } from './services/project.service-module';
 
 
 
@@ -19,7 +20,8 @@ import {ProjectListComponentModule} from "./ui/project-list/project-list.compone
     EmployeeListComponentModule,
     EmployeeFacesComponentModule,
     EmployeeServiceModule,
-    ProjectListComponentModule
+    ProjectListComponentModule,
+    ProjectServiceModule
 
   ],
   providers: [],
