@@ -14,7 +14,4 @@ export class EmployeeFormComponent {
       salary: new FormControl(null, [Validators.min(0), Validators.required]),
   })
 
-  onButtonClicked(){
-    alert('It works');
-  }
 }
