@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.component-module";
 import {EmployeeFacesComponentModule} from "./ui/employee-faces/employee-faces.component-module";
 import { EmployeeServiceModule } from './services/employee.service-module';
+import {ProjectListComponentModule} from "./ui/project-list/project-list.component-module";
 
 
 
@@ -17,7 +18,8 @@ import { EmployeeServiceModule } from './services/employee.service-module';
     HttpClientModule,
     EmployeeListComponentModule,
     EmployeeFacesComponentModule,
-    EmployeeServiceModule
+    EmployeeServiceModule,
+    ProjectListComponentModule
 
   ],
   providers: [],
