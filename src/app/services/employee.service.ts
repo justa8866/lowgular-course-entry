@@ -19,7 +19,10 @@ export class EmployeeService {
 
   create(employee: CreateEmployeeModel): Observable<void> {
     return this._client.post('https://dummy.restapiexample.com/api/v1/create', employee).pipe(map( _ => void 0));
+  }
 
+  delete(id: string): Observable<void>{
+    return this._client.delete('https://dummy.restapiexample.com/api/v1/delete/' + id).pipe(map( _ => void 0));
   }
 
 

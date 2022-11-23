@@ -13,4 +13,12 @@ import { EmployeeService } from '../../services/employee.service';
 export class EmployeeListComponent {
   constructor( private _employeeService: EmployeeService) { }
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
+  
+  remove(id: string) {
+    this._employeeService.delete(id).subscribe();
+  }
+
+  onButtonClicked() {
+    alert('User was successfully removed ')
+  }
 }
