@@ -1,2 +1,7 @@
 <h1>Employee </h1>
-{{ (params$ | async)?.id }}
+<div>id: {{ (params$ | async)?.id }}</div>
+<div>name: {{ (details$ | async)?.name }}</div>
+<div>img: <img src={{ (details$ | async)?.img }}/></div>
+<div>salary: {{ (details$ | async)?.salary }}</div>
+<div>age: {{ (details$ | async)?.age }}</div>
+
